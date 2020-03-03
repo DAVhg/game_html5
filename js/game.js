@@ -440,7 +440,39 @@ var levels = {
 				{type:"hero", name:"hero1",x:140,y:405},
 			]
 		},
-		{   // Tercer nivel
+		{   // Tercer nivel 
+			foreground: 'desert-foreground',
+			background: 'clouds-background',
+			entities: [
+				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
+				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
+
+				{ type: "block", name: "wood", x: 500, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 500, y: 295, calories: 590 },
+
+				{ type: "block", name: "wood", x: 580, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 580, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy2", x: 580, y: 205, calories: 420 },
+
+				//BASE
+				{ type: "block", name: "wood", x: 730, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 630, y: 380, angle: 90, width: 100, height: 25 },
+				//MEDIO
+				{ type: "block", name: "glass", x: 680, y: 317.5, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 680, y: 290, calories: 590 },
+
+				{ type: "block", name: "wood", x: 790, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 790, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy2", x: 790, y: 205, calories: 420 },
+
+				{ type: "block", name: "wood", x: 880, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 880, y: 295, calories: 590 },
+
+				{ type: "hero", name: "hero2", x: 80, y: 405 },
+				{ type: "hero", name: "hero1", x: 140, y: 405 },
+			]
+		},
+		{   // Cuarto nivel
 			foreground: 'desert-foreground',
 			background: 'clouds-background',
 			entities: [
@@ -479,7 +511,7 @@ var levels = {
 
 			]
 		},
-		{   // Cuarto nivel REMODELAR
+		{   // Quinto nivel
 			foreground: 'desert-foreground',
 			background: 'clouds-background',
 			entities: [
