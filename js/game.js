@@ -447,26 +447,29 @@ var levels = {
 				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
 				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
 
-				{ type: "block", name: "wood", x: 930, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 930, y: 280, angle: 90, width: 100, height: 25 },
-				{ type: "villain", name: "enemy1", x: 930, y: 205, calories: 590 },
+				{ type: "block", name: "wood", x: 688, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 688, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 688, y: 205, calories: 590 },
 
-				{ type: "block", name: "wood", x: 650, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 650, y: 280, angle: 90, width: 100, height: 25 },
-				{ type: "villain", name: "enemy2", x: 650, y: 205, calories: 420 },
+				//PRIMER CASTILLO
+				//BASE
+				{ type: "block", name: "wood", x: 590, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 490, y: 380, angle: 90, width: 100, height: 25 },
+				//MEDIO
+				{ type: "block", name: "glass", x: 540, y: 317.5, width: 100, height: 25 },
+				//ARRIBA
+				{ type: "block", name: "glass", x: 540, y: 255, angle: 90, width: 100, height: 25 },
 
-				{ type: "block", name: "wood", x: 890, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 790, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 690, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 740, y: 317.5, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 840, y: 317.5, width: 100, height: 25 },
+				//SEGUNDO CASTILLO
+				//Abajo
+				{ type: "block", name: "wood", x: 885, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 785, y: 380, angle: 90, width: 100, height: 25 },
+				//MEDIO
+				{ type: "block", name: "glass", x: 835, y: 317.5, width: 100, height: 25 },
+				//TOP ROW
+				{ type: "block", name: "glass", x: 835, y: 255, angle: 90, width: 100, height: 25 },
 
-				{ type: "block", name: "glass", x: 740, y: 255, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 840, y: 255, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 790, y: 192.5, width: 100, height: 25 },
-
-				{ type: "villain", name: "enemy1", x: 785, y: 155, calories: 590 },
-				{ type: "villain", name: "enemy2", x: 740, y: 405, calories: 420 },
+				{ type: "villain", name: "enemy2", x: 540, y: 405, calories: 420 },
 				{ type: "villain", name: "enemy3", x: 835, y: 400, calories: 150 },
 
 				{ type: "hero", name: "hero4", x: 30, y: 415 },
